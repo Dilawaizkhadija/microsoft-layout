@@ -1,0 +1,211 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Open Sans", sans-serif !important;
+  overflow-x: hidden !important;
+}
+/* @media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1588px !important;
+  }
+} */
+/* card styling */
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* end */
+/* input  */
+input.transparent-input{
+  background-color:transparent !important;
+  border:none !important;
+  border-bottom:1px solid rgb(133, 130, 130) !important;
+}
+/* end */
+
+
+
+.navrbar-bg {
+  background: #fff;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.navbar .megamenu {
+  padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 18%;
+    right: 0;
+    width: 70%;
+    margin-top: 0;
+    background: #f2f2f2;
+  }
+  .navbar .megamenu a:hover {
+    text-decoration: underline;
+    background: none !important;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 100vh;
+    margin-top: 10px;
+  }
+}
+
+.megasubmenu {
+  padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu .dropdown-toggle::after {
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid;
+  }
+
+  .megasubmenu {
+    left: 100%;
+    top: 0;
+    min-height: 100%;
+    min-width: 500px;
+  }
+
+  .dropdown-menu > li:hover .megasubmenu {
+    display: block;
+  }
+}
+.custom-style {
+  padding-left: calc(100% / 6);
+  padding-right: 13.75%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  box-sizing: inherit;
+  font-size: 15px;
+}
+
+.bg-color-resource {
+  background: #f2f2f2;
+  padding: 20px;
+  border: rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05) #000 !important;
+  width: 200px;
+  height: auto;
+}
+.bg-color-resource2 {
+  background: #f2f2f2;
+  padding: 20px;
+  border: rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05) #000 !important;
+  width: 400px;
+  height: auto;
+}
+.bg-color-resource a {
+  padding: 10px;
+}
+.bg-color-resource a:hover {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+.img-user {
+  width: 32px;
+  height: 32px;
+  /* margin: 6px; */
+  cursor: pointer;
+  margin-top: 0px;
+}
+/* active color bg */
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #f2f2f2 !important;
+}
+/* active color bg */
+
+/* span line */
+
+@media (max-width: 1000px) {
+  .line1 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .logo1 {
+    margin-left: 55px;
+    padding-top: 3px;
+  }
+}
+/* span line */
+
+/*  */
+.fontsize {
+  font-size: larger;
+}
+/*  */
+
+/* footer start */
+
+footer {
+  background: #f2f2f2;
+
+  color: #616161;
+  /* margin-top: 100px; */
+}
+
+footer a {
+  color: #616161;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #616161;
+  text-decoration: black;
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: #616161;
+}
+
+/* footer enc */
